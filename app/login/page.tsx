@@ -10,7 +10,7 @@ export default function LoginPage() {
 
   function login(e: React.FormEvent) {
     e.preventDefault()
-    const expected = process.env.NEXT_PUBLIC_APP_PASSCODE || '1234'
+    const expected = process.env.NEXT_PUBLIC_APP_PASSCODE || '7084'
     if (passcode === expected) {
       localStorage.setItem('gymlog_authenticated', 'true')
       router.replace('/')
