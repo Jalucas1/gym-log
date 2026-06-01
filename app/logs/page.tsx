@@ -71,11 +71,11 @@ export default function LogsPage() {
   return (
     <AuthGuard>
       <AppFrame>
-        <PageHeader
-          eyebrow="Audit trail"
-          title="Activity Logs"
-          description="Review cleaning and tanning submissions with full date and time records."
-        />
+      <PageHeader
+  title="Activity Logs"
+  subtitle="Review cleaning and tanning submissions with full date and time records."
+  badge="Audit trail"
+/>
 
         <div className="mb-6 grid grid-cols-2 gap-3 rounded-[1.5rem] border border-black/10 bg-white p-2 shadow-sm md:max-w-md">
           <button

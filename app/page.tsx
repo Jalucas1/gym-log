@@ -105,11 +105,11 @@ export default function WalkAroundPage() {
   return (
     <AuthGuard>
       <AppFrame>
-        <PageHeader
-          eyebrow="Daily operations"
-          title="Walk-Around"
-          description="Log completed cleaning tasks with automatic date and time tracking."
-        />
+      <PageHeader
+  title="Walk-Around"
+  subtitle="Log completed cleaning tasks with automatic date and time tracking."
+  badge="Daily operations"
+/>
 
         <div className="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
           <section className="rounded-[2rem] border border-black/10 bg-white p-5 shadow-xl shadow-black/5 md:p-7">

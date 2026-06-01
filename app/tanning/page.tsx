@@ -95,11 +95,11 @@ export default function TanningPage() {
   return (
     <AuthGuard>
       <AppFrame>
-        <PageHeader
-          eyebrow="Black Card Spa"
-          title="Tanning Log"
-          description="Record each tanning bed cleaning with automatic date and time tracking."
-        />
+      <PageHeader
+  title="Tanning Log"
+  subtitle="Record each tanning bed cleaning with automatic date and time tracking."
+  badge="Black Card Spa"
+/>
 
         <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
           <section className="rounded-[2rem] border border-black/10 bg-white p-5 shadow-xl shadow-black/5 md:p-7">
